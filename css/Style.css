@@ -1,0 +1,238 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color:rgb(50, 50, 140);
+    width: 100%;
+   
+}
+.fbtwli{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    
+}
+.order{
+    border-radius:0%;
+    font-family: "Cardo";
+}
+#navbarSupportedContent{
+    margin-left:250px ;
+}
+.nav-item{
+    margin-left: 30px;
+}
+@media (min-width:300px) and (max-width:427px){
+    #navbarSupportedContent{
+        margin-left:0px ;
+    }
+    .nav-item{
+        margin-left: 0px;
+    }
+    .fa-brands{
+        font-size: 0.5rem;
+        display: none;
+    }
+   
+}
+.yellowline{
+    width: 80%;
+    height: 2px;
+    background-color: yellow;
+}
+.welcome{
+    position: relative;
+    padding-left: 60px;
+}
+.welcome::before{
+    content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        background:rgba(255, 202, 66, 1);
+        left: 0;
+        top: 50%;
+        position: absolute;
+}
+.bestwriter{
+    font-family: "Cardo";
+    font-size: 3.4rem;
+}
+.read{
+    text-decoration:underline;
+}
+.pages{
+    position: relative;
+    color: white;
+    font-family: "Cardo";
+}
+.pages::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background:rgba(255, 202, 66, 1);
+    left: 0;
+    border-radius: 50%;
+    top: 50%;
+    position: absolute; 
+}
+.sectionfirstul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.theauthorbook{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    line-height: 5;
+}
+.card{
+    border: none;
+}
+.card-title{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+}
+.card-text{
+    font-family: "Inter";
+    color: rgba(150, 154, 160, 1);
+    font-size: 1.2rem;
+}
+.dolar{
+    font-family: "Inter";
+    color: rgba(255, 202, 66, 1);
+    font-size: 1.1rem;
+}
+.printed{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    position: relative;
+}
+.printed::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    background:rgba(255, 202, 66, 1);
+    left: 0;
+    border-radius: 50%;
+    top: 30%; 
+    position: absolute; 
+}
+.ordernowbtn{
+    border-radius: 0px;
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    border: 2px solid rgb(238, 238, 17);
+}
+.authore{
+    font-size: 2rem;
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+}
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+}
+.zerotwo{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    font-size: 3rem;
+    
+}
+.publish{
+    font-family: "Inter";
+    color: rgba(150, 154, 160, 1);
+}
+.rightborder{
+   position: relative;
+}
+.rightborder::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 86px;
+  background-color: yellow  ;
+    top: 0%;
+    left: 90%;
+    display: block;
+}
+.trusted{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    position: relative;
+}
+.trusted::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    background-color: yellow;
+    left: 47%;
+    top: 110%;
+}
+.bluebackground{
+    background-color: rgba(27, 55, 100, 1);
+}
+.getbook{
+    font-family: "Cardo";
+    color: white;
+    position: relative;
+}
+.getbook::after{
+    position: absolute;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: yellow;
+}
+.we{
+    font-family: "Inter";
+    color: rgba(180, 199, 231, 1) ;
+}
+.content{
+    background-color: rgba(244, 248, 255, 1);
+}
+.yellowdot{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(209, 209, 80);
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    
+}
+.usd{
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    font-size: 1.4rem;
+}
+.enhance{
+    background-color: rgba(244, 248, 255, 1);
+    height: inherit;
+}
+.pageslength{
+    display: flex;
+    justify-content: space-between;
+}
+.trail{
+    width: 35%;
+   text-align: center;
+   line-height: 4;
+    background-color: yellow;
+    font-family: "Cardo";
+    color: rgba(27, 55, 100, 1);
+    font-size: 1.3rem;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.short{
+    color: ;
+}
